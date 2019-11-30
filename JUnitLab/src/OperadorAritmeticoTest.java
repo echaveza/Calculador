@@ -15,6 +15,18 @@ public class OperadorAritmeticoTest {
 
 	 assertEquals(esperado, suma);
 	}
+	
+	@Test
+	public void resta() {
+
+	 int esperado=18;
+	 int a = 10;
+	 int b = 20;
+
+	 int resta = OperadorAritmetico.resta(a, b);
+
+	 assertEquals(esperado, resta);
+	}
 	@Test
 	public void division() {
 	int esperado=4;
